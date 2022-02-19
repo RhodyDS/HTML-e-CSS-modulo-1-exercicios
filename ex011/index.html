@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de imagem</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir este site em varios dispositivos diferentes ou simplesmente ajuste o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/small.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/medio.jpg" type="image/jpg">
+        <img src="imagens/grande.jpg" alt="imagem flexivel">
+    </picture>
+    <h1>reproduzindo audios</h1>
+    <p>vamos aprender a reproduzir audios em HTML</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="audio/y2meta.com - Alesso, Katy Perry - When I'm Gone (Official Music Video) (128 kbps).mp3" type="audio/mp3">
+        <source src="audio/y2meta.com - Alesso, Katy Perry - When I'm Gone (Official Music Video) (128 kbps).mp3" type="audio/ogg">
+        <source src="audio/y2meta.com - Alesso, Katy Perry - When I'm Gone (Official Music Video) (128 kbps).mp3" type="audio/wav">
+        <p>infelizmente seu navegador não consegue reproduzir áudio</p>
+        <a href="audio/y2meta.com - Alesso, Katy Perry - When I'm Gone (Official Music Video) (128 kbps).mp3">clique aqui para baixar o arquivo Mp3</a>
+
+    </audio>    
+</body>
+</html>
